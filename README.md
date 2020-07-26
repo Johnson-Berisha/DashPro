@@ -12,7 +12,7 @@ Let's start
 <br>
 First we start using the link tag
 ```html
-<link rel="stylesheet" href="http://dashpro.netlify.app/dashpro.css">
+<link rel="stylesheet" href="https://dashpro.netlify.app/dashpro.css">
 ```
 Now were finished with that let's create the dashboard
 Let's start, first we use the class name project
@@ -41,6 +41,27 @@ For the last part do every thing i say
 For the end we will put the details first we start with a div class name project__detail and then inside whe put a h2 with the class project__title and last we use the tag small with a class name project__category
 ```html
 <div class="project">
+  <div class="project__card">
+    <a href="" class="project__image"><img src="http://unsplash.it/600/400?image=7" width=600 height=400 alt=""></a>
+    <div class="project__detail">
+    <h2 class="project__title"><a href="#">Project Name</a></h2>
+    <small class="project__category"><a href="#">Photography</a></small>
+    </div>
+  </div> 
+</div> 
+```
+You want more animations?
+OK 
+Just select a id name and you're done, the id names are
+<ul>
+  <li>animation-1</li>
+  <li>animation-2</li>
+  <li>animation-3</li>
+  <li>animation-4</li>
+</ul>
+
+```html
+<div class="project" id="animation-1">
   <div class="project__card">
     <a href="" class="project__image"><img src="http://unsplash.it/600/400?image=7" width=600 height=400 alt=""></a>
     <div class="project__detail">
